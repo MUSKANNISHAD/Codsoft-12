@@ -1,0 +1,66 @@
+.upper-nav {
+    height:50px;
+    width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 138, 154); /* dark bg */
+  color: white;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#upper-left {
+  /* Example: announcement or contact info */
+}
+
+#upper-right a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.upper-nav .icons a:hover {
+  color: #ffb347;
+}
+.upper-nav .icons a {
+  color: white;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#upper-right a:hover {
+  color: #ffb347; /* accent color */
+}
+
+.button{
+    width: 150px;
+    height: 70px;
+    border:1px solid #fff;
+    background-color: #f9ab00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+.about{
+    display: flex;
+
+}
+#img{
+    height:300px;
+    width:300px;
+}
+.icons{
+    width: 50%;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
