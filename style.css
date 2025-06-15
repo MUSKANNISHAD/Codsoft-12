@@ -1,6 +1,6 @@
 .upper-nav {
-    height:50px;
-    width:100%;
+  height:50px;
+   width:100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +12,10 @@
 }
 
 #upper-left {
+  width:60%;
+  margin-left: 8rem;
+  display: flex;
+  gap: 4rem;
   /* Example: announcement or contact info */
 }
 
@@ -32,6 +36,19 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
+.fa-brands{
+  color:#fff
+}
+.fa-brands:hover{
+  opacity: 0.6;
+}
+h4{
+  color: #000;
+}
+h4:hover{
+  opacity:0.5;
+}
+
 
 #upper-right a:hover {
   color: #ffb347; /* accent color */
